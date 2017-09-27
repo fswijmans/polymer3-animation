@@ -1,0 +1,17 @@
+{
+  "name": "polymer3-preview",
+  "version": "1.0.0",
+  "description": "The first, great, hands-on P3 preview",
+  "main": "index.js",
+  "repository": {},
+  "author": "Frank Wijmans",
+  "license": "MIT",
+  "flat": true,
+  "dependencies": {
+    "@polymer/polymer": "next",
+    "@webcomponents/webcomponentsjs": "^1.0.13"
+  },
+  "resolutions": {
+    "@webcomponents/webcomponentsjs": "1.0.13"
+  }
+}

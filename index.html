@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Load polyfills. Same as 2.x, except for the path -->
+    <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js">
+
+    </script>
+
+    <!-- Import the my-app element's module. -->
+    <script type="module" src="src/my-app.js"></script>
+    <style>
+        html {
+            height: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background: linear-gradient(to top, rgb(58, 123, 213), rgb(58, 96, 115));
+        }
+
+        body {
+            min-height: 100ch;
+            margin: 0;
+        }
+
+        .center-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 100%;
+            min-height: 100ch;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center-wrapper">
+        <my-app></my-app>
+    </div>
+</body>
+
+</html>
